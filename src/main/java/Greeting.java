@@ -3,6 +3,12 @@ public class Greeting {
         System.out.println("Здравствуйте, Иван Валентинович!");
         int a=355;
         int b=113;
-        System.out.println((float)a/b);
+        double p = pi(a,b);
+        System.out.println(p);
+        System.out.println(Math.PI);
+    }
+
+    public static double pi(int a, int b) {
+        return (double)a/b;
     }
 }
